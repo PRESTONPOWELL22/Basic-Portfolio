@@ -1,0 +1,70 @@
+h2{
+    color: #4aaaa5;
+}
+
+.all {
+    background-image: url(../images/Background.png);
+    border: #ffffff;
+    height: 100%;
+    color: #777777;
+    
+}
+
+.top {
+    background: #ffffff;
+    width: 960px;
+    position: absolute;
+    top: 0%
+}
+
+.name {
+    background: teal;
+    width: 30%;
+    color: #ffffff;
+    float: left;
+}
+
+.main-navigation {
+    background-color: #ffffff;
+    border: #cccccc;
+    float: right ;
+    width: 70%;
+    text-align: : right;
+    
+}
+
+.main-box{
+    width: 650px; 
+    float: left;
+    margin: 50px;
+    background-color: #ffffff
+}
+
+.about-me {
+    text-align: center;
+    width: 650px;
+    float: left;
+    background: white;
+    margin-top: 100px;
+    position: inherit;
+}
+
+.side-box {
+    width: 270px;
+    float: left;
+    background: white;
+}
+
+.footer {
+    color: #ffffff ;
+    background: #666666;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    
+}
+
+.profile-img {
+    float: left;
+}
