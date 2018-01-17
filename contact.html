@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio | Preston Powell</title>
+    <title>About | Preston Powell</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="#">
-</head>
-<body class="all">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+ </head>
+
+ <body class="body">
+
   <div class="top">
-    <h1 class="name">Preston Powell</h1>
-    <nav class="main-navigation">        
+      <div id="top-bar">
+        <h1 id="name">Preston Powell</h1>
+    <nav id="nav">
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
     </nav>
+      </div>
   </div>
 
-  <div class="contact-form">
-    <h1>Contact</h1>    
-    <form>
-        Name:<br>
-        <input type="text" name="name" value="John Smith"><br>
-        Email:<br>
-        <input type="text" name="email" value="example@gmail.com"><br>
-        Message:<br>
-        <input type="text" name="email"><br><br>
-        <input type="submit" value="Submit">
-    </form>
-  </div>
-
-  <div class="side-box">  
-      <h2>Connect With Me</h2>
-      <a href="#"><img src="#" alt="Github"></a>
-      <a href="#"><img src="#" alt="Linkedin"></a>
-      <a href="#"><img src="#" alt="book thingy"></a>
+  <div class="all">
+      <div class="main-box">
+          <form>
+              <h2 id="about">Contact</h2><br>
+              Name:<br>
+              <input id="input1" type="text" name="name" value="John Smith"><br>
+              Email:<br>
+              <input id="input2" type="text" name="email" value="example@gmail.com"><br>
+              Message:<br>
+              <textarea rows="4" cols="50">
+              Leave me a message here! 
+              </textarea><br>              
+              <input type="submit" value="Submit">
+          </form>     
+      </div>
+    
+      <div class="side-box">    
+        <h2 id="connect">Connect With Me</h2><br>    
+        <container id="images">
+        <a href="#"><img src="./assets/images/Github.png" alt="Github"></a>
+        <a href="#"><img src="./assets/images/Linkedin.png" alt="Linkedin"></a>
+        <a href="#"><img src="./assets/images/Stack-Overflow.png" alt="book thingy"></a>
+        </container>
+      </div>
+    </div>  
   </div>
 
   <div class="footer">
