@@ -1,7 +1,8 @@
 # Basic-Portfolio
-This is the first homework for the UCI coding bootcamp submitted 1/21/2018
-It is a basic about/portfolio/contact website
-I created the html and css from scratch.
-It is the first website I have built from scratch.
-No boot strap, no tools
--Preston Powell
+### This is my first experiment with coding a website.
+
+#### Technologies Used:
+* HTML
+* CSS
+
+This is the First Portfolio I built when I first started coding, it is very basic and is not responsive. It was written by me in January 2018 and I never added media queries, but I built it from the ground up using only html and css, no libraries or frameworks.
